@@ -77,8 +77,8 @@
     display: block;
 }
 .banner {
-    background-image: url("http://i.huffpost.com/gen/1438088/images/o-PACIFIC-OCEAN-WARMING-facebook.jpg");
-    /*url("Images/landscape.jpg")*/
+    /*background-image: url("http://i.huffpost.com/gen/1438088/images/o-PACIFIC-OCEAN-WARMING-facebook.jpg");*/
+    background-image: url("../images/code.jpg");
     height: 100vh;
     background-size: cover;
     border-bottom: grey 1px solid;
@@ -99,7 +99,6 @@
     padding: 10px;
     font-size: 10vh;
     color: white;
-    opacity: 0.8;
     letter-spacing: 7px;
     text-transform: uppercase;
     position: relative;
@@ -128,9 +127,13 @@ h1 {
 }
 #Capa_1 {
     fill: #2a4d69;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     margin-bottom: 20px;
+    border-radius: 5px;
+    border: 3px black;
+
+
 }
 #profile-pic {
     height: 145px;
