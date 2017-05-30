@@ -21,7 +21,7 @@
 #navicon:hover,
 #navicon:active {
     background-color: #2a4d69;
-    color: salmon;
+    color: #3F94BF;
 }
 #nav-toggle {
     background-color: rgba(255, 255, 255, 0.5);
@@ -34,7 +34,7 @@
     text-decoration: none;
 }
 .nav {
-    background-color: #FA8072;
+    background-color: #3F94BF;
     margin: 0;
     position: fixed;
     display: inline-block;
@@ -48,7 +48,7 @@
     margin-top: 0;
     opacity: 0.8;
     display: block;
-    background-color: #FA8072;
+    background-color: #3F94BF;
 }
 .nav li {
     list-style-type: none;
@@ -78,7 +78,7 @@
 }
 .banner {
     /*background-image: url("http://i.huffpost.com/gen/1438088/images/o-PACIFIC-OCEAN-WARMING-facebook.jpg");*/
-    background-image: url("../images/code.jpg");
+    background-image: url("../images/canada1.jpg");
     height: 100vh;
     background-size: cover;
     border-bottom: grey 1px solid;
@@ -127,12 +127,12 @@ h1 {
 }
 #Capa_1 {
     fill: #2a4d69;
-    height: 200px;
+    height: 300px;
     width: 200px;
     margin-bottom: 20px;
     border-radius: 5px;
-    border: 3px black;
-
+    border-style: solid;
+    border-width: 5px black;
 
 }
 #profile-pic {
@@ -268,7 +268,7 @@ a #facebook:hover,
 #twitter:hover,
 #googleplus:hover,
 #instagram:hover {
-    fill: #FA8072;
+    fill: #3F94BF;
     cursor: pointer;
     transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
@@ -276,7 +276,7 @@ a #facebook:hover,
     -moz-transition: all 1s ease-in-out;
 }
 button:hover {
-    background-color: #FA8072;
+    background-color: #3F94BF;
     color: #fff;
     box-shadow: 5px 5px 2px rgba(0, 0, 0, .75);
     transition: all .25s ease-in-out;
@@ -379,7 +379,7 @@ button:hover {
         border: none;
     }
     #nav-toggle {
-        background-color: salmon;
+        background-color: #3F94BF;
         color: #fff;
     }
     #gallery {
