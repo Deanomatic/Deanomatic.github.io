@@ -4,11 +4,6 @@
     font-family: "Raleway", sans-serif;
     line-height: 1.5em;
 }
-.card {
-    width: 80%;
-    text-align: center;
-    
-}
 
 #navicon {
     background-color: rgba(255, 255, 255, 0.5);
@@ -27,7 +22,7 @@
 #navicon:hover,
 #navicon:active {
     background-color: #ff6d00;
-    color: #3F94BF;
+    color: #3F94BF; 
 }
 #nav-toggle {
     background-color: rgba(255, 255, 255, 0.5);
