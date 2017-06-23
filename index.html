@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <link href="Styles\main.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/Styles/icon.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,700,300' rel='stylesheet' type='text/css'>
@@ -18,7 +19,7 @@
 
 </head>
 
-<body background="/images/grey-background.jpg">
+<body background="/images/grey-background.jpg" style="background-attachment: fixed;">
     <div class="nav">
         <ul>
             <li>
@@ -43,16 +44,15 @@
         <div class="banner" background="images/code.jpg">
             <h1 id="header-text">Dean Smith</h1>
         </div>
+<!--////////////////////////////////// ABOUT //////////////////////////////////////-->
         <div id="about">
             <img id="Capa_1" src="images\2017_04_26_C18_0373.jpg">
-            
-           <!--  <h1 id="about-header">About</h1> -->
             <div class="row">
                 
                 <div class="col m12 text-center">
-                  <div class="card blue-grey darken-1">
+                  <div class="card" style="background-color: #2a4d69;">
                     <div class="card-content white-text">
-                      <span class="card-title"><h1>About</h1></span>
+                      <span class="card-title"><h1 style="color: black;" >About</h1></span>
                       <p>Born and raised in Nashville, I am deep into my journey of software development. 
                     Last year I went to a hackathon knowing little about coding. I was quickly blown away seeing all 
                     that people were creating and my curiosity got the best of me. Currently at Nashville Software School,
@@ -67,6 +67,7 @@
             </div>
         </div>
         <hr></hr>
+<!--////////////////////////////////// PROJECTS //////////////////////////////////////-->
         <div id="projects">
         <div class="row">
             <div class="col m6 offset-m3">
@@ -74,21 +75,15 @@
             <h1 id="test-heading">Projects</h1>
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="images/canada1.jpg">
+                  <img class="activator" src="/images/memento.PNG">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                  <p><a href="#">This is a link</a></p>
+                  <span class="card-title activator grey-text text-darken-4">Memento<i class="material-icons right">more_vert</i></span>
+                  <p><a href="https://github.com/Deanomatic/back-end-capstone/tree/master/mysite">Click here to see the code.</a></p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                  <p>Born and raised in Nashville, I am deep into my journey of software development. 
-                    Last year I went to a hackathon knowing little about coding. I was quickly blown away seeing all 
-                    that people were creating and my curiosity got the best of me. Currently at Nashville Software School,
-                     I am feeding my curiosity by learning more about how much there is to know in this wide world of software.
-                      However, before I got into programming I fit into Nashville quite well because of my love for music. I 
-                      love to play music on the side whenever presented a chance. More than anything, my drive behind learning to
-                       code is to give me a powerful way to serve and love people.</p>
+                  <span class="card-title grey-text text-darken-4">Memento<i class="material-icons right">close</i></span>
+                  <p>This is another way to help people keep track of their busy schedules. It provides a central place to keep track of everything. It also allows users to remind others of tasks at the chosen time. More are to be built out in this app in the future. The frontend of this app uses django-material and takes advantage of the robust django admin.</p>
                 </div>
               </div>
             </div>
@@ -97,42 +92,69 @@
             <div class="col m6 offset-m3">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="images/canada1.jpg">
+                  <img class="activator" src="/images/buck_stop.PNG">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                  <p><a href="#">This is a link</a></p>
+                  <span class="card-title activator grey-text text-darken-4">Buck Stop<i class="material-icons right">more_vert</i></span>
+                  <p><a href="https://github.com/Deanomatic/buck-stop">Click here to see the code.</a></p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                  <p>Born and raised in Nashville, I am deep into my journey of software development. 
-                    Last year I went to a hackathon knowing little about coding. I was quickly blown away seeing all 
-                    that people were creating and my curiosity got the best of me. Currently at Nashville Software School,
-                     I am feeding my curiosity by learning more about how much there is to know in this wide world of software.
-                      However, before I got into programming I fit into Nashville quite well because of my love for music. I 
-                      love to play music on the side whenever presented a chance. More than anything, my drive behind learning to
-                       code is to give me a powerful way to serve and love people.</p>
+                  <span class="card-title grey-text text-darken-4">Buck Stop<i class="material-icons right">close</i></span>
+                  <p>This app is still in production and has many more goals to be finished. The purpose is to allow a simple and convinient way for hunters to know what's going on in their local hunting areas. I want to allow hunters and anyone esle who is interested in wildlife to be able to easily track and and even share useful info on wildlife. So please feel free to make use of what you can with this app.</p>
                 </div>
               </div>
             </div>
         </div>
         </div>
         <hr></hr>
+<!--////////////////////////////////// EXPERIENCE //////////////////////////////////////-->
         <div id="experience">
-            <h1 id="experience-header">Experience</h1>
-            <div id="img-box">
-                <img class="image" id="img1" src="http://graphicdesignsinspiration.com/wp-content/uploads/2014/07/250-Free-PSD-Mockup-For-Graphic-Designers-04.jpg">
-                <img class="image" id="img2" src="http://ltheme.com/wp-content/uploads/2014/04/browser-mockups-psd.jpg">
+        <h1 id="experience-header">Experience</h1>
+            <div id="container">
+                <div class="row">
+                    <div class="col m12 text-center">
+                      <div class="card" style="background-color: #2a4d69;">
+                        <h2 style="color: black;">Nashville House Painter</h2>
+                        <div class="card-content white-text">
+                          <p>The job of Project Manager at Nashville House Painters means a variety of things. I needed to have a detailed knowledge of each job we were on. Knowing how to communicate with the customer, employees and the business owner is vital to being an effective job manager. On very large scale jobs, It is key to give clear direction for everything to get done correctly. Along with directing, the other important aspect of the job is quality control. It is important for customer satisfaction to maintain a very high attention to detail.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div id="container">   
+                <div class="row">
+                    <div class="col m12 text-center">
+                      <div class="card" style="background-color: #2a4d69;">
+                      <h2 style="color: black;" >Nashville Software School</h2>
+                        <div class="card-content white-text">
+                          <p>This si a fully immersive boot camp designed to teach the skills needed to become a true software developer. This program makes me learn in not only comprehensive way, but a hands on practical way. Throughout the program I am constantly coding and solving simulated business problems. Here are a few things that are worth noting I do at NSS. </p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+<!--////////////////////////////////// CONTACT //////////////////////////////////////-->
     <div id="contact">
-        <h1 id="contact-heading">Contact</h1>
+        <h1>CONTACT</h1>
+        
+    </div>
+    <footer>Dean Smith &copy 2017
+        <button>Beam me up!</button>
+    </footer>
+    <script src="Scripts\script.js"></script>
+    <!-- materialize javascript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+</body>
+</html>
 
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <a href="http://www.facebook.com">
                 <g id="facebook" sketch:type="MSLayerGroup" transform="translate(40.000000, 40.000000)">
-                    <!--<rect id="Rectangle" sketch:type="MSShapeGroup" x="0" y="0" width="44" height="44"></rect>-->
                     <circle id="Oval" stroke="#2a4d69" stroke-width="2" sketch:type="MSShapeGroup" cx="22" cy="22" r="22"></circle>
                     <path d="M23.3147057,35 L18.4372418,35 L18.4372418,23.4985483 L16,23.4985483 L16,19.535534 L18.4372418,19.535534 L18.4372418,17.1562737 C18.4372418,13.9234411 19.8127074,12 23.7230238,12 L26.9776468,12 L26.9776468,15.964466 L24.9435074,15.964466 C23.4212558,15.964466 23.3206665,16.5182719 23.3206665,17.5518493 L23.3139606,19.535534 L27,19.535534 L26.5685836,23.4985483 L23.3139606,23.4985483 L23.3139606,35 L23.3147057,35 Z" id="Shape" fill="#2a4d69" sketch:type="MSShapeGroup"></path>
                 </g>
@@ -159,16 +181,3 @@
                 </g>
             </a>
         </svg>
-
-        <div id="map-canvas"></div>
-    </div>
-    <footer>Dean Smith &copy 2017
-        <button>Beam me up!</button>
-    </footer>
-    <script src="Scripts\script.js"></script>
-    <!-- materialize javascript -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/materialize.js"></script>
-</body>
-</html>
