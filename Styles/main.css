@@ -1,3 +1,7 @@
+/* #text {
+    font-size: 7.6vw;
+  } */
+
 * {
     margin: 0;
     padding: 0;
@@ -76,7 +80,7 @@
     display: block;
 }
 .banner {
-    background-image: url("../images/canada1.jpg");
+    background-image: url("../images/dean-website-banner.gif");
     height: 100vh;
     background-size: cover;
     border-bottom: grey 1px solid;
@@ -96,7 +100,7 @@
     border: 15px solid white;
     padding: 10px;
     font-size: 10vh;
-    color: #424242;
+    color: #d5d814;
     letter-spacing: 7px;
     text-transform: uppercase;
     position: relative;
@@ -120,7 +124,7 @@ hr {
     padding: 50px;
 }
 h1 {
-    color: #424242;
+    color: #d5d814;
     text-transform: uppercase;
 }
 #Capa_1 {
@@ -171,7 +175,7 @@ h1 {
     -webkit-transition: all 0.5s ease-in-out;
 }
 .quote h1 {
-    color: #424242;
+    color: #d5d814;
     text-transform: none;
     font-weight: 300;
     font-style: normal;
@@ -244,7 +248,7 @@ footer {
     text-align: left;
     /*height: 75px;*/
     
-    background-color: #2a4d69;
+    background-color: #0a0a0a;
     color: white;
     padding: 50px 20px;
     /*display: block;*/
@@ -287,10 +291,10 @@ button:hover {
     #experience {
         width: 70%;
     }
-    #about h1,
-    #projects h1,
-    #experience h1,
-    #contact h1 {
+    #about h2,
+    #projects h2,
+    #experience h2,
+    #contact h2 {
         margin-bottom: 30px;
     }
     .quote {
@@ -308,7 +312,7 @@ button:hover {
         font-size: 1em;
     }
     #header-text {
-        color: #2a4d69;
+        color: #d5d814;
         opacity: 1;
         border: none;
         font-size: 4em;
