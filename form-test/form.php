@@ -1,5 +1,5 @@
 <?php
-
+echo "<h2>TEST</h2>";
 if (isset($_POST['submit'])) {
     $fullName = $_POST['fullName'];
     $zipCode = $_POST['zipCode'];
