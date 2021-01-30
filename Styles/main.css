@@ -194,6 +194,9 @@ h1 {
 #experience-header {
     padding: 50px;
 }
+#experience, .card {
+    background-color: #0a0a0a;
+}
 .image {
     width: 80%;
     display: inline-block;
