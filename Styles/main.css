@@ -9,6 +9,10 @@
     line-height: 1.5em;
 }
 
+body {
+    background-color:ghostwhite;
+}
+
 #navicon {
     background-color: rgba(255, 255, 255, 0.5);
     color: #2a4d69;
@@ -25,7 +29,7 @@
 }
 #navicon:hover,
 #navicon:active {
-    background-color: #d5d814;
+    background-color: #444535;
     color: #3F94BF; 
 }
 #nav-toggle {
@@ -39,7 +43,7 @@
     text-decoration: none;
 }
 .nav {
-    background-color: #d5d814;
+    background-color: #000000;
     margin: 0;
     position: fixed;
     display: inline-block;
@@ -53,7 +57,7 @@
     margin-top: 0;
     opacity: 0.8;
     display: block;
-    background-color: #d5d814;
+    background-color: #000000;
 }
 .nav li {
     list-style-type: none;
@@ -69,11 +73,11 @@
     letter-spacing: 2px;
     padding: 0 20px 0 20px;
 }
-.nav li:hover {
+.nav li:hover, a:hover {
     opacity: 1.0;
-    color: lightgrey;
+    color: black;
     height: inherit;
-    background-color: #2a4d69;
+    background-color: #e3ff2a;
     transition: all 0.3s ease-in-out;
 }
 #container {
@@ -194,9 +198,9 @@ h1 {
 #experience-header {
     padding: 50px;
 }
-#experience, .card {
+/* #experience, .card {
     background-color: #0a0a0a;
-}
+} */
 .image {
     width: 80%;
     display: inline-block;

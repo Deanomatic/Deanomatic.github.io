@@ -1,4 +1,3 @@
-<!-- <div id="text"></div> -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,7 +14,7 @@
 		<!-- matrerialize links -->
 		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
 		<!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/> -->
 
@@ -50,6 +49,7 @@
 		 id="container">
 				<div class="banner" background="/images/dean-website-banner.gif">
 						<h1 id="header-text">Dean Smith</h1>
+						<h2 style="color: white;" id="text"></h2>
 				</div>
 <!--////////////////////////////////// ABOUT //////////////////////////////////////-->
 				<div id="about">
@@ -116,10 +116,22 @@
 				<div id="experience">
 				<h2 id="experience-header">Experience</h2>
 						<div id="container">
+							<div class="row">
+									<div class="col m12 text-center">
+										<div class="card" style="background-color: #0a0a0a;">
+											<h3 style="color: white;">Web Specialist/Support Analyst</h3>
+											<div class="card-content white-text">
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+						<div id="container">
 								<div class="row">
 										<div class="col m12 text-center">
 											<div class="card" style="background-color: #0a0a0a;">
-												<h2 style="color: white;">Junior Frontend Developer</h2>
+												<h3 style="color: white;">Junior Frontend Developer</h3>
 												<div class="card-content white-text">
 													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 												</div>
@@ -131,7 +143,7 @@
 								<div class="row">
 										<div class="col m12 text-center">
 											<div class="card" style="background-color: #0a0a0a;">
-											<h2 class="white-text" ><a href="http://nashvillesoftwareschool.com/">Nashville Software School</a></h2>
+											<h3><a style="color: white;" href="http://nashvillesoftwareschool.com/">Nashville Software School</a></h3>
 												<div class="card-content white-text">
 													<p>This is a fully immersive boot camp designed to teach the skills needed to become a true software developer. This program makes one learn in not only a comprehensive way, but a hands on practical way. Throughout the program coding and solving simulated business problems is the game. NSS teaches the basics of what software is to complex conputer science theory. But most importantly, they teach how to work on a team and be a great teammate.</p>
 												</div>
@@ -143,7 +155,7 @@
 							<div class="row">
 									<div class="col m12 text-center">
 										<div class="card" style="background-color: #0a0a0a;">
-											<h2 class="white-text"></h2><a href="https://nashvilledesignhousepainters.com/">Nashville House Painter</a></h2>
+											<h3><a style="color: white;" href="https://nashvilledesignhousepainters.com/">Nashville House Painter</a></h3>
 											<div class="card-content white-text">
 												<p>The job of Project Manager at Nashville House Painters means a variety of things. I needed to have a detailed knowledge of each job we were on. Knowing how to communicate with the customer, employees and the business owner is vital to being an effective job manager. On very large scale jobs, It is key to give clear direction for everything to get done correctly. Along with directing, the other important aspect of the job is quality control. It is important for customer satisfaction to maintain a very high attention to detail.</p>
 											</div>
@@ -201,6 +213,7 @@
 				<button>Beam me up!</button>
 		</footer>
 		<script src="Scripts\script.js"></script>
+		<script src="js\main.js"></script>
 		<!-- materialize javascript -->
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script type="text/javascript" src="js/materialize.min.js"></script>
